@@ -1,0 +1,48 @@
+.active{
+    background-color: rgb(33, 33, 33);
+}
+.active span{
+    background-color:black;
+    color: white;
+    
+}
+#toggle{
+    height:auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+   
+
+}
+#toggle span{
+    background-color: darkgray;
+    height: 20px;
+    padding: 10px;
+    border: 1px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 2px;
+}
+.dbt{
+    padding: 15px;
+    width: 50px;
+    cursor: pointer;
+    background-color:rgb(51, 48, 48);
+color: white;
+
+}
+.dbt:hover{
+    background-color: aqua;
+}
+.dcalc{
+    background-color: rgb(79, 76, 76);
+    width: max-content;
+    padding: 10px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dipt{
+    color: white;
+}
